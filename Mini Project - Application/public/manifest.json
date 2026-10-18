@@ -1,0 +1,48 @@
+{
+  "id": "/",
+  "name": "Kira's To-Do-List",
+  "short_name": "Kira's List",
+  "description": "Kira's to-do list with interactive greetings, due date tracking, priority filters, and local storage.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "lang": "en",
+  "dir": "ltr",
+  "theme_color": "#FBF6F3",
+  "background_color": "#FBF6F3",
+  "categories": ["productivity", "lifestyle", "utilities"],
+  "prefer_related_applications": false,
+  "launch_handler": { "client_mode": "focus-existing" },
+  "icons": [
+    { "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa-maskable-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Kira's To-Do-List on desktop"
+    },
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Kira's To-Do-List on mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open my tasks",
+      "short_name": "Tasks",
+      "url": "/",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
